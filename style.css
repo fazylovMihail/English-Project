@@ -166,8 +166,8 @@ footer{
     width: 80px;
     height: 80px;
     position: absolute;
-    right: 100px;
-    top: 50px;
+    right: 25px;
+    top: 25px;
     cursor: pointer;
     transition-duration: 0.2s;
 }
