@@ -55,8 +55,8 @@ let person2 = new Product(
 persons.push(person2)
 let person3 = new Product(
     'Леброн Джеймс',
-    'khjlkhjlnkhklj',
-    'дщлщлллогш',
+    '<ul><li>James Lebron (1984) is a basketball player, born on December 30, 1984 in Akron, Ohio. He is most famous as the young star of the Cleveland Cavaliers. </li><li>James LeBron is known as the star quarterback of the Cleveland Tigers of the National Basketball Association. James was a high schoul phenomenon. He made a quick leap from being on the high schoul team to playing for the NBA. At the same time, the athlete signed a $90 million deal with Phil Knight of Nike (athletic shoe manufacturers). </li></ul><ul><li>Four-time champion </li><li>Four-time most valuable player of the finals </li><li>Four-time regular season MVP </li><li>He was named to the NBA All—Star team 19 times, 13 of which were in the first </li></ul><ul><li>Maintaining good physical shape</li><li>Restoration of the body</li><li>Smart investments</li></ul>',
+    '<ul><li>Джеймс Леброн (1984) - баскетболист, родился 30 декабря 1984 года в Акроне, штат Огайо. Он наиболее известен как молодая звезда "Кливленд Кавальерс".</li><li>Джеймс Леброн известен как звездный квотербек "Кливленд Тайгерс" Национальной баскетбольной ассоциации. Джеймс был феноменальным игроком высшей школы. Он быстро перешел из команды высшей школы в НБА. В то же время спортсмен подписал контракт на 90 миллионов долларов с Филом Найтом из Nike (производитель спортивной обуви).</li></ul><ul><li>Четырехкратный чемпион</li><li>Четырехкратный самый ценный игрок финала</li><li>Четырехкратный MVP регулярного чемпионата</li><li>Он 19 раз включался в состав команды всех звезд НБА, 13 из которых были в первом составе.</li></ul><ul><li>Поддержание хорошей физической формы</li><li>Восстановление организма</li><li>Разумные инвестиции</li></ul>',
     'img/Прямоугольник 6.png'
 )
 persons.push(person3)
@@ -110,7 +110,7 @@ function LanguageChanges(){
         productConteiner.innerHTML = persons[objCount].DrowWindowR()
     }
 
-    console.log(languageTrue)
+    consule.log(languageTrue)
 }
 
 for(let i=0;i<contentBtn.length;i++){
