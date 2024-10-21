@@ -4,6 +4,9 @@
     .img-group{
         width: 100%;
     }
+    .product-info{
+        font-size: 18px;
+    }
 }
 @media(max-width:674px){
     .vertical-band{
@@ -33,6 +36,7 @@
     }
     .product-info{
         margin: 25px 0;
+        font-size: 20px;
     }
     .language-btn{
         bottom: 75px;
@@ -163,7 +167,6 @@ footer{
 }
 .product-info{
     max-width: 400px;
-    font-size: 20px;
     /* border: 1px solid #fff; */
     text-align: left;
     min-height: 100px;
