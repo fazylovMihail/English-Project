@@ -167,7 +167,8 @@ footer{
     /* border: 1px solid #fff; */
     text-align: left;
     min-height: 100px;
-    word-break: break-all;
+    word-break: normal;
+    padding: 10px;
 }
 .product-name-text{
     font-size: 35px;
